@@ -46,7 +46,6 @@ namespace MyLeasing.Web.Data.Entities
         public string Remarks { get; set; }
 
         public PropertyType propertyType { get; set; }
-
         public Owner Owner { get; set; }
 
         public ICollection<PropertyImage> PropertyImages { get; set; }

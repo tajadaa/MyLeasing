@@ -14,5 +14,6 @@ namespace MyLeasing.Web.Data
         public DbSet<Property> Properties { get; set; }
         public DbSet<PropertyImage> propertyImages { get; set; }
         public DbSet<PropertyType> propertyTypes { get; set; }
+        public object PropertyTypes { get; internal set; }
     }
 }
